@@ -69,6 +69,7 @@ La classe TermComparator implémente Comparator<Term> pour trier les termes selo
 La classe VectorPolynomial propose une implémentation alternative en utilisant Vector<Term>.
 
 Caractéristiques :
+
 ✔️ Même logique que LLPolynomial, mais avec Vector.
 
 ✔️ Redéfinition de toString() identique à LLPolynomial.
