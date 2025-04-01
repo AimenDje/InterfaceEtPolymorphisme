@@ -15,7 +15,8 @@ variable : (char) Nom de la variable (ex : ‘x’, ‘y’). Une variable indé
 
 exponent : (int) Exposant du terme (ex : 0, 1, 2).
 
-## Caractéristiques :
+Caractéristiques :
+
 
 ✔️ Classe immuable (final) avec accesseurs (getters).
 
