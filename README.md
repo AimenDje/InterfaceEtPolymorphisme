@@ -65,7 +65,7 @@ La classe TermComparator implémente Comparator<Term> pour trier les termes selo
 1️⃣ L’ordre lexicographique des variables (x < y < z < ' ').
 2️⃣ L’exposant (ordre décroissant si les variables sont identiques).
 
-🔢 Classe VectorPolynomial (Implémentation avec un Vecteur)
+# 🔢 Classe VectorPolynomial (Implémentation avec un Vecteur)
 La classe VectorPolynomial propose une implémentation alternative en utilisant Vector<Term>.
 
 Caractéristiques :
@@ -74,7 +74,7 @@ Caractéristiques :
 
 ✔️ Redéfinition de toString() identique à LLPolynomial.
 
-🔄 Classe PolynomialToolbox (Outils pour Polynômes)
+# 🔄 Classe PolynomialToolbox (Outils pour Polynômes)
 Cette classe contient des méthodes de manipulation avancées :
 
 simplify(Polynomial p) : Fusionne les termes ayant la même variable et le même exposant.
@@ -83,7 +83,7 @@ sum(Polynomial p1, Polynomial p2) : Additionne deux polynômes et retourne le po
 
 sort(Polynomial p) : Trie les termes avec TermComparator.
 
-🛠️ Classe Driver (Classe de Test)
+# 🛠️ Classe Driver (Classe de Test)
 
 La classe Driver permet de tester toutes les fonctionnalités du projet :
 
