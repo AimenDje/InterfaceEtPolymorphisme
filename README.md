@@ -18,7 +18,9 @@ exponent : (int) Exposant du terme (ex : 0, 1, 2).
 ## Caractéristiques :
 
 ✔️ Classe immuable (final) avec accesseurs (getters).
+
 ✔️ Vérification des coefficients nuls via une exception personnalisée.
+
 ✔️ Redéfinition de la méthode toString() pour afficher les termes sous forme lisible ("3.0x^2", "4.0x", "8.0").
 
 # ⚖️ Gestion des Exceptions
@@ -49,8 +51,11 @@ La classe LLPolynomial implémente l’interface Polynomial en utilisant LinkedL
 Caractéristiques :
 
 ✔️ Ajout et suppression de termes dans une liste chaînée.
+
 ✔️ Gestion des variables et des exposants uniques.
+
 ✔️ Tri des termes avec TermComparator.
+
 ✔️ Redéfinition de toString() pour afficher l’ensemble du polynôme sous forme lisible ("3.0x^2 + 4.0x + 8.0 - 2.0y^3").
 
 # 📊 Classe TermComparator (Comparateur de Termes)
@@ -81,6 +86,9 @@ sort(Polynomial p) : Trie les termes avec TermComparator.
 La classe Driver permet de tester toutes les fonctionnalités du projet :
 
 ✅ Création et manipulation d’objets Term, LLPolynomial et VectorPolynomial.
+
 ✅ Ajout, suppression et récupération de termes.
+
 ✅ Déclenchement et gestion des exceptions (ZeroCoefficientException).
+
 ✅ Affichage des polynômes sous différentes formes.
