@@ -64,6 +64,7 @@ La classe VectorPolynomial propose une implémentation alternative en utilisant 
 
 Caractéristiques :
 ✔️ Même logique que LLPolynomial, mais avec Vector.
+
 ✔️ Redéfinition de toString() identique à LLPolynomial.
 
 🔄 Classe PolynomialToolbox (Outils pour Polynômes)
